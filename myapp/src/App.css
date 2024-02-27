@@ -1,0 +1,220 @@
+/* Main Styling of App */
+body{
+  background-color:#ffeae2;
+}
+/* NavBar Creation and styling */
+.navbar{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  display : flex; 
+  background-color:rgb(218, 113, 72);
+  border: 2px solid black;
+  height: 65px;   
+} 
+
+.greet{
+  font-size:x-large;
+  margin-top: 0px;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+
+.greet:hover {
+  animation: rainbow 3s linear infinite;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: yellow; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+
+.navbar-compo{
+  
+  font-weight: 100;
+  display: flex;
+  margin-left: 800px;
+  padding-top: 3.5px;
+  padding-bottom: 5px;
+}
+
+.navbar-compo a{
+  color: white;   
+}
+.compo{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  padding-left: 15px;
+  padding-right: 15px;  
+  margin-bottom: 20px;
+  
+}
+
+.compo-C {
+  font-family: "Merriweather";
+  color:rgb(255, 255, 255);
+  transition: transform 0.2s ease-in-out;
+}
+.compo-C:hover {
+  color: #F57D1F;
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+.compo:hover{
+  color: rgb(226, 139, 24);
+}
+
+/* Main Section Styling */
+
+.main{
+  background-color: #FEECE2;
+  display: flex;
+  flex-direction: row;
+  padding-top : 10rem;
+  height: 500px;
+}
+
+.main-first{
+  width: 50%;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.main-heading{
+  margin-top: 0px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 12em;
+}
+
+
+h3 {
+  color: #000000ef;
+  font-family: "Merriweather",'Times New Roman', serif ;
+  font-size: 1.2rem; 
+  font-weight: bold;
+  padding-top : 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 0px;
+}
+
+.resume-but{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  width: 10rem;
+  height: 4rem;
+  margin-top: 2rem;
+  background-color: rgb(218, 90, 16);
+}
+
+.resume-but:hover{
+  background-color: rgb(235, 65, 35);
+}
+
+
+/* Projects Section Styling */
+.projects-section{
+  background-color: #FFBE98;
+  /* height : 750px; */
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 4px 6px 5px rgba(59, 35, 18, 0.3);
+}
+.projects-section-head{
+  display: flex;
+  flex-direction: row;
+}
+.pro-first-div{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+
+}
+
+.projects-main {
+  background-color: #E2BFB3; /* Warm orange tone */
+  color: #333; /* Dark gray for text */
+  padding: 2rem; 
+  border-radius: 12px; /* Subtle rounded corners */
+  border: 5px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+  font-family: Arial, sans-serif; /* Modern sans-serif font */
+  font-size: 1.1rem; /* Increase base font size for better readability */
+  line-height: 1.5; /* Improve text spacing */
+  max-width: 800px; /* Optional: Set a maximum width for responsiveness */
+  margin: auto; /* Center the component horizontally */
+  /* margin-top: 0.5rem; */
+  margin-bottom: 1.2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.projects-main h2 {
+  margin-bottom: 1rem; /* Add some space after the heading */
+  font-size: 1.4rem; /* Slightly larger heading size */
+  font-weight: bold; /* Make the heading bolder */
+}
+
+.projects-main p {
+  margin-bottom: 0.5rem; /* Adjust spacing between paragraphs */
+}
+
+.projects-main a {
+  color: #a85608; /* Match the background color for links */
+  font-family: "Merriweather";
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.2s ease-in-out; /* Add smooth hover effect */
+}
+
+.projects-main:hover {
+  background-color: #F57D1F;
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.projects-main a:hover {
+  color: #fffbf6; /* Darken the link color on hover */
+}
+
+/* Achievements Styling */
+.Achieve-main{
+  font-family: 'Merriweather';
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  background-color: #ff9f51;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Achieve-main h1{
+  color: #c55f00;
+}
+
+.Achieve-content{
+  text-align: left;
+  margin-left : 200px;
+  /* width : 900px; */
+}
+
+/* Contacts styling */
+
+.contact-main{
+  text-align: center;
+  margin-top: 32px;
+  padding-top: 20px;
+  background-color: rgb(218, 113, 72);
+  padding-bottom: 10px;
+  border: 2px solid black;
+  font-family: "Merriweather";
+}
+
+.contact-main h5{
+  color: rgb(233, 221, 221);
+  margin-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}

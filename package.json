@@ -1,0 +1,10 @@
+{
+  "homepage": "https://abhi2666.github.io/Portfolio",
+  "dependencies": {
+    "react-bootstrap": "^2.10.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
+  }
+}
