@@ -8,7 +8,7 @@ function ProjectCard(props) {
             <p><b><em>Project Name : </em></b>{props.name}</p>
             <p><b><em>Description : </em></b>{props.desc}</p>
             <p><b><em>Tech stack Used : </em></b>{props.tech}</p>
-            <p><b><em>Github link : </em></b><a href="https://github.com/abhi2666/Simon-Game" target="_blank" rel="noreferrer">{props.link}</a></p>
+            <p><b><em>Github link : </em></b><a href={props.link} target="_blank" rel="noreferrer">LINK</a></p>
         </div>
     );
 }
